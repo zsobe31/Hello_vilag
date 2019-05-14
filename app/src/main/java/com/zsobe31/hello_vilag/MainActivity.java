@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 String time = "Az idő: " + new Date(System.currentTimeMillis()).toString();
                 Toast.makeText(MainActivity.this, time, Toast.LENGTH_LONG).show();
 
-                tvData.setText(time);
+                tvData.setText("Szia, üdv neked!");
             }
         });
 
